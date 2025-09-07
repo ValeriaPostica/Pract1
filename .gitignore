@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Rider / VS Code / VS specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.rsuser
+.vs/
+
+# ASP.NET / Blazor specific
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish outputs
+publish/
+*.publish.xml
+
+# DotNet Tools
+.dotnet/
+.tools/
+
+# Others
+.env
