@@ -7,5 +7,5 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.Services.AddAuthorizationCore();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddSingleton<AuthenticationStateProvider, PersistentAuthenticationStateProvider>();
-
+//no changes
 await builder.Build().RunAsync();
